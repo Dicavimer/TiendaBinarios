@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Camilo
+ * @author Camilo && Diana
  */
 public class Crear_cuenta extends javax.swing.JFrame {
 

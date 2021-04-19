@@ -9,7 +9,7 @@ import Frames.Inicio;
 
 /**
  *
- * @author ACER
+ * @author Camilo && Diana
  */
 public class RunApp {
 

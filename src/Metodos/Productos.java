@@ -19,7 +19,7 @@ import java.util.Vector;
 
 /**
  *
- * @author Camilo
+ * @author Camilo && Diana
  */
 public class Productos {
 

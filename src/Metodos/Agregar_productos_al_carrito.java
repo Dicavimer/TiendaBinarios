@@ -11,7 +11,7 @@ import java.util.*;
 
 /**
  *
- * @author Camilo
+ * @author Camilo && Diana
  */
 public class Agregar_productos_al_carrito {
 

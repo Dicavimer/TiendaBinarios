@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  *
- * @author Camilo
+ * @author Diana
  */
 public class Producto implements Serializable{
     private String producto;

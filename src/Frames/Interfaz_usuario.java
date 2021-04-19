@@ -25,7 +25,7 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author Camilo
+ * @author Camilo && Diana
  */
 public class Interfaz_usuario extends javax.swing.JFrame {
 

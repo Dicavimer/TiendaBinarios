@@ -13,7 +13,7 @@ import static Frames.Interfaz_usuario.*;
 
 /**
  *
- * @author Camilo
+ * @author Camilo && Diana
  */
 public class Modificar_cuenta extends javax.swing.JFrame {
 

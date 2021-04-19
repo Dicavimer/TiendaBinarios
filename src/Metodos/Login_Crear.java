@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Camilo
+ * @author Camilo && Diana
  */
 
 public class Login_Crear {

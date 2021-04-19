@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Camilo
+ * @author Camilo && Diana
  */
 public class Agregar_Carrito_al_archivo {
     public static final String ruta = "./compras.bin";

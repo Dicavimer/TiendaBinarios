@@ -7,7 +7,7 @@ package Frames;
 
 /**
  *
- * @author Camilo
+ * @author Camilo && Diana
  */
 public class Inicio extends javax.swing.JFrame {
 

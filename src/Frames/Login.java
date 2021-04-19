@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Camilo
+ * @author Camilo && Diana
  */
 public class Login extends javax.swing.JFrame {
 

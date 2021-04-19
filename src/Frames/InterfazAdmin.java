@@ -21,7 +21,7 @@ import javax.swing.table.TableRowSorter;
 
 /**
  *
- * @author Camilo
+ * @author Camilo && Diana
  */
 public class InterfazAdmin extends javax.swing.JFrame {
 
