@@ -26,7 +26,7 @@ public class Crear_cuenta extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(this);
         jPanel2.setBackground(Color.WHITE);
-        usuarios = obtener_cliente();
+        usuarios = obtener_cliente((ArrayList<Usuario>) obin.readObject());
     }
 
     void limpiar() {

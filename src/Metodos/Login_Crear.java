@@ -19,39 +19,39 @@ import java.util.ArrayList;
  */
 
 public class Login_Crear {
-    
-   public static final String ruta = "./clientes.bin";
-   
-   public static boolean guardarUsuario(ArrayList<Usuario> usuario){
-       try {
-           FileOutputStream objeto = new FileOutputStream(ruta);
-           ObjectOutputStream ob = new ObjectOutputStream(objeto);
-           ob.writeObject(usuario);
-           ob.close();
-           objeto.close();
-           return true;
-       } catch (Exception e) {
-           e.printStackTrace();
-           return false;
-       }
-   }
-   
-   public static ArrayList<Usuario> obtener_cliente(){
-       try {
+
+    public static final String ruta = "./clientes.bin";
+
+    public static boolean guardarUsuario(ArrayList<Usuario> usuario) {
+        try {
+            FileOutputStream objeto = new FileOutputStream(ruta);
+            ObjectOutputStream ob = new ObjectOutputStream(objeto);
+            ob.writeObject(usuario);
+            ob.close();
+            objeto.close();
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    public static ArrayList<Usuario> obtener_cliente() {
+        try {
             FileInputStream objeto = new FileInputStream(ruta);
             ObjectInputStream obin = new ObjectInputStream(objeto);
-            
-            ArrayList<Usuario> u = (ArrayList<Usuario>)obin.readObject();
-            
+
+            ArrayList<Usuario> u = (ArrayList<Usuario>) obin.readObject();
+
             obin.close();
             objeto.close();
-            
+
             return u;
-            
-       } catch (Exception e) {
-           e.printStackTrace();
-           return null;
-       }
-   }
-   
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
 }
